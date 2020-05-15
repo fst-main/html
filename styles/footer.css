@@ -1,0 +1,87 @@
+
+/*Footer section styles*/
+.footer-section{
+    height: 400px;
+    width: 100%;
+    background-color: #11122b;
+    color: #cbcbcb;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    display: flex;
+/*  display: grid;
+    grid-gap: 25px;*/
+    justify-content: center;
+    align-items: center;
+    /*padding: 60px 10px;*/
+    flex-direction: column;
+    margin-top: -4px;
+}
+/*
+.footer-section > .banner-image {
+    display: flex;
+    justify-content: center;
+}*/
+.footer-section > .banner-image img{
+    width: 180px;
+    height: 100%;
+    /*filter: brightness(50%);*/
+    filter: opacity(.5);
+}
+
+.footer-section > .sub-contact span{
+    /*display: flex;
+    grid-template-columns: 2fr;
+    grid-gap: 30px; 
+    justify-content: space-evenly;
+    text-align: center;
+    padding-block-start: 15px;*/
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1em;
+    letter-spacing: 2px;
+}
+ 
+.footer-section > .sub-contact > .contact-hours > .hours{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: #cea135;
+    font-size: .8em;
+    text-transform: uppercase;
+}
+.footer-section > .sub-contact > .contact-hours > .phone{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: #858585;
+    font-size: .7em;
+}
+
+.footer-section > .links-wrapper {
+/*    display: flex;
+    text-indent: 2px;*/
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 400px;
+}
+
+.footer-section > .icon-wrapper {
+/*  display: flex;
+    justify-content: space-evenly;
+    color: honeydew;*/
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-section > .icon-wrapper a {
+    font-size: 1.5em;
+    color: #cbcbcb;
+    transition: .5s;
+    }
+
+.footer-section > .icon-wrapper a:hover{
+    color: #cea135;
+}
+.footer-section > .copyright-writer {
+    margin-bottom: 42px;
+    font-size: 0.7em;
+    color: #858585;
+}
